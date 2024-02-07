@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to my portfolio! :tada: on Mario Yanes</title>
+    <link>/</link>
+    <description>Recent content in Welcome to my portfolio! :tada: on Mario Yanes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unwrapping link&#39;s redirection with R and Shiny</title>
+      <link>/post/2024-02-07-unwrapping-link-s-redirection-with-r-and-shiny/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-02-07-unwrapping-link-s-redirection-with-r-and-shiny/</guid>
+      <description>There are public portals like WhereGoes where you introduce a link and they show you all the hopes the request does.</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/</guid>
+      <description>Listed in this page you can find the different projects I&amp;rsquo;ve been working on, ones are mantained (or in progress) :green_circle:, and other(s) the development may stop or is stopped :red_circle:.</description>
+    </item>
+  </channel>
+</rss>

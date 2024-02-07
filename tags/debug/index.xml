@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>debug on Mario Yanes</title>
+    <link>/tags/debug/</link>
+    <description>Recent content in debug on Mario Yanes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/debug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unwrapping link&#39;s redirection with R and Shiny</title>
+      <link>/post/2024-02-07-unwrapping-link-s-redirection-with-r-and-shiny/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-02-07-unwrapping-link-s-redirection-with-r-and-shiny/</guid>
+      <description>There are public portals like WhereGoes where you introduce a link and they show you all the hopes the request does.</description>
+    </item>
+  </channel>
+</rss>
