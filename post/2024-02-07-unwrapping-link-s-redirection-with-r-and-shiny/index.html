@@ -112,7 +112,7 @@
     "keywords": ["shiny","r","docker","link","privacy","debug"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "173"
+    "wordCount": "174"
   }
   </script>
 
@@ -314,7 +314,13 @@ is shortened, the original link is not secure (http) or it has trackers in betwe
 information with 
 <a href="https://posit.co/shiny" target="_blank" rel="noreferrer"><code>shiny</code></a>.</p>
 <p>So from that born Redirect CheckeR. It can be use in several ways.</p>
-<h3 id="using-it-as-a-function-displaying-the-output-in-the-terminal" class="relative group">Using it as a function, displaying the output in the terminal <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#using-it-as-a-function-displaying-the-output-in-the-terminal" aria-label="Anchor">#</a></span></h3><pre tabindex="0"><code>
+<h3 id="view-with-a-shiny-webpage-locally-from-any-ide" class="relative group">View with a Shiny webpage, locally from any IDE <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#view-with-a-shiny-webpage-locally-from-any-ide" aria-label="Anchor">#</a></span></h3><p>Download the app.R file from the repository and execute the R script. Then access
+to localhost:3838 and play!</p>
+<h3 id="deploying-as-a-docker-container-to-access-anywhere" class="relative group">Deploying as a Docker container, to access anywhere <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#deploying-as-a-docker-container-to-access-anywhere" aria-label="Anchor">#</a></span></h3><p>Clone the repository, edit the ports if needed in docker-compose.yml,
+and deploy with <code>docker compose up -d</code> or using your container manager like Portainer.
+Then access to the IP of the host you&rsquo;re running this container at + the port you&rsquo;ve
+mapped, and you&rsquo;re ready to go!</p>
+<h3 id="using-it-as-a-function-displaying-the-output-in-the-terminal-not-available-yet" class="relative group">Using it as a function, displaying the output in the terminal (not available yet) <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#using-it-as-a-function-displaying-the-output-in-the-terminal-not-available-yet" aria-label="Anchor">#</a></span></h3><pre tabindex="0"><code>
 remotes::install.github(&#34;myanesp/redirect-checkR&#34;)
 
 library(redirect-checkR)
@@ -322,13 +328,7 @@ library(redirect-checkR)
 url &lt;- http://google.es
 
 get_redirections(url)
-</code></pre><h3 id="view-with-a-shiny-webpage-locally-from-any-ide" class="relative group">View with a Shiny webpage, locally from any IDE <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#view-with-a-shiny-webpage-locally-from-any-ide" aria-label="Anchor">#</a></span></h3><p>Download the app.R file from the repository and execute the R script. Then access
-to localhost:3838 and play!</p>
-<h3 id="deploying-as-a-docker-container-to-access-anywhere" class="relative group">Deploying as a Docker container, to access anywhere <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#deploying-as-a-docker-container-to-access-anywhere" aria-label="Anchor">#</a></span></h3><p>Download the docker-compose.yml file from the repository, edit the ports if needed,
-and deploy with <code>docker compose up -d</code> or using your container manager like Portainer.
-Then access to the IP of the host you&rsquo;re running this container at + the port you&rsquo;ve
-mapped, and you&rsquo;re ready to go!</p>
-
+</code></pre>
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">

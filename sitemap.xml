@@ -10,6 +10,13 @@
   
     
       <url>
+            <loc>/</loc>
+            <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>/post/</loc>
             <lastmod>2024-02-01T00:00:00+00:00</lastmod>
           </url>
@@ -26,13 +33,6 @@
     
       <url>
             <loc>/post/2024-02-07-unwrapping-link-s-redirection-with-r-and-shiny/</loc>
-            <lastmod>2024-02-01T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>/</loc>
             <lastmod>2024-02-01T00:00:00+00:00</lastmod>
           </url>
     
