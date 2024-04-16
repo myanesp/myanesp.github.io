@@ -6,8 +6,15 @@
     <description>Recent content in Mario Yanes&#39; Portfolio on Mario Yanes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Translate with R (I): libretranslateR for offline translations</title>
+      <link>/post/2024-04-15-translate-with-r-i-libretranslater-for-offline-translations/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-04-15-translate-with-r-i-libretranslater-for-offline-translations/</guid>
+      <description>Some weeks ago, a colleague of mine asked me if I knew any R package to translate some dataframes she wanted to have in different languages.</description>
+    </item>
     <item>
       <title>Unwrapping link&#39;s redirection with R and Shiny</title>
       <link>/post/2024-02-07-unwrapping-link-s-redirection-with-r-and-shiny/</link>
